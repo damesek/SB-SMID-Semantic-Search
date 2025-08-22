@@ -1,0 +1,42 @@
+# Clojure
+.cpcache/
+.nrepl-port
+.lein-*
+*.jar
+
+# Except our SimSIMD jar
+!simsimd.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build
+target/
+build/
+out/
+
+# Data files (too large for git)
+data/bible_embeddings_complete.json
+data/*.json
+!data/test.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+benchmark.py
+test-simple.sh
+
+# Temp files
+*.swp
+*~
+.#*
